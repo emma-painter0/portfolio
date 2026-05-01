@@ -409,6 +409,10 @@ body.dark .card {
     margin-bottom: 0.5rem;
 }
 
+.breadcrumb a {
+    color: var(--on-bg);
+}
+
 .before-after {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
