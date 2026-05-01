@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma Painter's Portfolio</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" size="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/4013ed0f94.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="main-header">
+      <div class="logo-section">
+        <a href="index.html">
+          <h1>Emma Painter</h1>
+        </a>
+      </div>
+      <div class="header-right">
+        <button class="nav-toggler">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="dark-mode-toggler">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-nav hidden">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="project-details-page">
+    <div class="breadcrumb">
+      <p><a href="index.html">Home</a> / <a href="projects.html">Projects</a> / <a href="zaraRedesign.html">Zara Redesign</a></p>
+    </div>
+    <h1>Zara Redesign</h1>
+    <div class="intro">
+      <h2>Background</h2>
+      <p>Alongside a team of three other members, we were tasked with researching websites, identifying ones that
+        violated design principles, and creating a redesign of that website. We looked at many online clothes shopping
+        sites and chose Zara as the website with the worst violations.</p>
+    </div>
+    <div>
+      <h2>The Problem</h2>
+      <img src="images/zaraScreenshot1.png" alt="Screenshot of Zara. Shows large image causing overflow on the x-axis.">
+      <p>The team examined Zara's website and compiled our critiques. The image above clearly shows the issues we described. Here are some things we noticed:</p>
+      <ul>
+        <li>The images are <em>way too big</em>. Users cannot see the whole picture and it causes overflow on the
+          x-axis.</li>
+        <li>Text is overlapping the images, which can interfere with legibility.</li>
+        <li>Icon design is confusing and it is not apparent on first glance what they are meant to represent.</li>
+      </ul>
+      <p>Every one of these issues has an extremely negative impact on user experience and makes the website frustrating to use. These critiques would serve as the basis for our design decisions in the following phases of the redesign process.</p>
+    </div>
+    <div>
+      <h2>Process</h2>
+      <p>The design process went through three phases: low-fidelity sketches, low-fidelity wireframes, and a high-fidelity UI prototype. The image below shows the evolution of the home page from the initial low-fidelity sketch to the low-fidelity wireframe and finally to the high-fidelity prototype.</p>
+      <img src="images/designProcess.png" alt="The evolution of the homepage design from sketch to low-fidelity wireframe to high-fidelity UI prototype.">
+      <p>The next section will go into more depth about each step in the phase, including decisions made and how we implemented feedback from testing.</p>
+    </div>
+    <div>
+      <h2>Testing</h2>
+      <p>The team conducted three phases of testing for each step in the redesign process. In each phase, participants were asked to perform tasks that reflected a user flow. The team observed the participants and noted where there was hesitation or confusion. Then, we asked the participants questions about their experience to get additional feedback.</p>
+      <p>The first testing phase had five participants, and it covered the sketches and helped transform those sketches into low-fidelity wireframes. The following are images depicting the design before the change and after the change.</p>
+      <div class="before-after">
+        <div>
+          <img src="images/searchResultMobileSketch.png" alt="Intial sketch of the search results page on mobile.">
+          <p class="caption">Before</p>
+        </div>
+        <div>
+          <img src="images/mobileSearch.png" alt="Low-fidelity wireframe of the search results page on mobile.">
+          <p class="caption">After</p>
+        </div>
+      </div>
+      <p>We added a filter button on the left hand side of the search results page so that users could filter down their options, which would give them more control and freedom.</p>
+      <div class="before-after">
+        <div>
+          <img src="images/mobileFormPageSketch.png" alt="Intial sketch of the form page on mobile.">
+          <p class="caption">Before</p>
+        </div>
+        <div>
+          <img src="images/mobileFormPageWireframe.png" alt="Low-fidelity wireframe of the form page on mobile.">
+          <p class="caption">After</p>
+        </div>
+      </div>
+      <p>We added a circle around the numbers on the rating page to make it apparent to users that they can interact with them, causing less confusion.</p>
+      <div class="before-after">
+        <div>
+          <img src="images/homeScreenSketch.png" alt="Intial sketch of the home screen on desktop.">
+          <p class="caption">Before</p>
+        </div>
+        <div>
+          <img src="images/desktopHome1.png" alt="Low-fidelity wireframe of the home page on desktop.">
+          <p class="caption">After</p>
+        </div>
+      </div>
+      <p>We moved the shopping cart and login buttons to the right side of the header, which is more familiar for users. This choice would remove confusion and hesitation when the users looked for these icons.</p>
+      <p>Additionally, we increased the size of the search bar and move it to the middle of the screen, right under the header on the home page. Placing the search bar in this location would allow users to find this essential feature right away.</p>
+      <br>
+      <p>The second testing phase was more in-depth and concerned the low-fidelity wireframes. For this phase, we had four participants. With the participants’ feedback in mind, we made the following changes to the wireframes:</p>
+      <div class="before-after">
+        <div>
+          <img src="images/desktopHome1.png" alt="Low-fidelity wireframe of the desktop home page before revision.">
+          <p class="caption">Before</p>
+        </div>
+        <div>
+          <img src="images/desktopHomeWireframe.png" alt="Low-fidelity wireframe of the desktop home page after revision.">
+          <p class="caption">After</p>
+        </div>
+      </div>
+      <ul>
+        <li>Moved the hamburger menu to the left side of the header. This change fixes the confusion participants felt about the placement of the hamburger menu, which distracted them from completing their tasks.</li>
+        <li>Moved the dark mode toggle button to the footer. Like with the hamburger menu, the dark mode toggle button’s placement was distracting, and could potentially overlap with the page’s contents.</li>
+      </ul>
+      <p>The final phase of testing was conducted on three target-users. From this phase of testing, we decided to add confirmation pages to let users know when they completed a task successfully, which would reduce confusion.</p>
+      <img src="images/submissionSuccessfulPage.png" alt="A webpage displaying 'Submission Successful' to let the user know that their submission was received.">
+    </div>
+    <div>
+      <h2>Outcome</h2>
+      <p>After many rounds of testing and numerous wireframes, we implemented the final product using HTML, CSS, and JavaScript. At current, the website is being hosted on Netlify, and can be found <a href="https://capstonezara.netlify.app/">here</a>.</p>
+    </div>
+  </main>
+</body>
+
+</html>
