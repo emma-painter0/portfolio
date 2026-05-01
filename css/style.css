@@ -357,6 +357,10 @@ body.dark .card {
 
 #projects img {
     border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
 }
 
 #projects button {
